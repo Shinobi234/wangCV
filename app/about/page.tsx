@@ -128,33 +128,28 @@ export default function AboutPage() {
               <Card>
                 <CardHeader className="text-center">
                   <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-white">JD</span>
+                    <span className="text-4xl font-bold text-white">Q</span>
                   </div>
-                  <CardTitle>John Doe</CardTitle>
-                  <p className="text-muted-foreground">Full Stack Developer</p>
+                  <CardTitle>Tran Duy Nhat Quang</CardTitle>
+                  <p className="text-muted-foreground">4th-year IT Student @ DaLat University</p>
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-center space-x-2 mb-4">
                     <Button variant="ghost" size="sm" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Shinobi234" target="_blank">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
                     <Button variant="ghost" size="sm" asChild>
-                      <Link href="https://twitter.com" target="_blank">
-                        <Twitter className="h-4 w-4" />
-                      </Link>
-                    </Button>
-                    <Button variant="ghost" size="sm" asChild>
-                      <Link href="https://linkedin.com" target="_blank">
-                        <Linkedin className="h-4 w-4" />
-                      </Link>
-                    </Button>
-                    <Button variant="ghost" size="sm" asChild>
-                      <Link href="mailto:hello@example.com">
+                      <Link href="mailto:2212449@dlu.edu.vn">
                         <Mail className="h-4 w-4" />
                       </Link>
                     </Button>
+                  </div>
+                  <div className="text-center text-sm text-muted-foreground mb-2">
+                    <div>Email: <a href="mailto:2212449@dlu.edu.vn" className="underline">2212449@dlu.edu.vn</a></div>
+                    <div>Phone: <a href="tel:0912650690" className="underline">0912650690</a></div>
+                    <div>GitHub: <a href="https://github.com/Shinobi234" className="underline" target="_blank">Shinobi234</a></div>
                   </div>
                   <Button className="w-full" variant="outline">
                     <Download className="mr-2 h-4 w-4" />
